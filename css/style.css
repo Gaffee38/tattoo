@@ -1,0 +1,1798 @@
+
+/*==============================
+=            HEADER            =
+==============================*/
+
+.mens_tops {
+  margin: 0;
+  padding: 18px 0 0 0px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.mens_tops li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.mens_tops li:last-child {
+  margin-right: 0;
+}
+
+.mens_tops li a {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.mens_tops .act a {
+  color: #f14343;
+}
+
+.blocks_spans h4 {
+  font-family: 'ProximaNova-Bold', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.blocks_spans h4 span {
+  display: block;
+  color: #f14343;
+}
+
+.piks {
+  width: 250px;
+  height: 50px;
+  border: 3px solid #f14343;
+  display: block;
+  margin: 10px auto auto auto;
+  background-color: transparent;
+  color: #f14343;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 48px;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.piks:hover {
+  color: #fff;
+  border: 3px solid #fff;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.ocarousel_s .owl-nav {
+  display: none;
+}
+
+.ocarousel_s .owl-dots {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.ocarousel_s .owl-dots .owl-dot {
+  width: 20px;
+  height: 20px;
+  margin: 0 3px;
+  border: 1px solid #fff;
+  padding: 3px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background: #fff;
+  display: inline-block;
+}
+
+.ocarousel_s .owl-dots .active {
+  background: #f14343;
+  border: 1px solid #f14343;
+}
+
+.lolikh4 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 29px;
+}
+
+.fancybox-button {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: transparent;
+  color: #fff;
+  border-radius: 0;
+  cursor: pointer;
+  vertical-align: top;
+  outline: none;
+}
+
+.fancybox-button--close::before,
+.fancybox-button--close::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  height: 3px;
+  width: 16px;
+  top: calc(50% - 1px);
+  left: calc(50% - 8px);
+}
+
+header {
+  /* background: url(/web/20180518221213im_/http://max-tattoo.ru/wp-content/themes/tatu/images/header_bg.jpg) no-repeat center top; */
+  width: 100%;
+  height: 768px;
+  position: relative;
+}
+
+.top_line {
+  width: 100%;
+  height: 56px;
+  background-color: #111;
+}
+
+.fixed_menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 55;
+  background: #111;
+}
+
+.soc_top_link {
+  margin: 17px 0 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.soc_top_link li {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.soc_top_link li:last-child {
+  margin-right: 0;
+}
+
+.soc_top_link li p {
+  color: #bababa;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-top: 2px;
+}
+
+.soc_top_link .top_soc_icon_1 {
+  display: block;
+  /* background: url(/web/20180518221213im_/http://max-tattoo.ru/wp-content/themes/tatu/images/icon/insta.png) no-repeat; */
+  width: 15px;
+  height: 15px;
+}
+
+.soc_top_link .top_soc_icon_2 {
+  display: block;
+  /* background: url(/web/20180518221213im_/http://max-tattoo.ru/wp-content/themes/tatu/images/icon/vk.png) no-repeat; */
+  width: 23px;
+  height: 13px;
+}
+
+.dovol_ple {
+  text-align: center;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+.dovol_ple span {
+  color: #f14343;
+}
+
+.phone_top {
+  display: inline-block;
+  margin-right: 20px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.top_button {
+  border: none;
+  background: black;
+  width: 183px;
+  height: 43px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 31px;
+  margin-top: 7px;
+}
+
+.logo {
+  display: block;
+  margin: 29px auto auto auto;
+}
+
+.block_prems {
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.block_prems .icon_block {
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.title_prems {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.desc_prems {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.logo_descrp {
+  text-align: center;
+  color: white;
+  font-family: 'Nickainley-Normal', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 38px;
+  overflow: hidden;
+  padding-bottom: 5px;
+}
+
+.logo_descrp:before,
+.logo_descrp:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 3%;
+  height: 2px;
+  background-color: #fff;
+  position: relative;
+}
+
+.logo_descrp:before {
+  margin-left: -100%;
+  left: -14px;
+}
+
+.logo_descrp:after {
+  margin-right: -100%;
+  right: -14px;
+}
+
+.texts {
+  text-align: center;
+}
+
+.block_h1 {
+  margin-top: 18px;
+  position: relative;
+  display: inline-block;
+  padding: 0 60px;
+}
+
+.block_h1:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 16px;
+  /* background: url(/web/20180518221213im_/http://max-tattoo.ru/wp-content/themes/tatu/images/icon/head.png) no-repeat; */
+  width: 49px;
+  height: 51px;
+}
+
+.block_h1:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 16px;
+  /* background: url(/web/20180518221213im_/http://max-tattoo.ru/wp-content/themes/tatu/images/icon/head.png) no-repeat; */
+  width: 49px;
+  height: 51px;
+}
+
+.block_h1 h1 {
+  color: #f14343;
+  font-family: 'ProximaNova-Bold', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.block_h1 h2 {
+  color: #fff;
+  font-family: 'ProximaNova-Bold', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 0 71px 0;
+  padding: 0;
+}
+
+.poloski:after {
+  content: '';
+  position: absolute;
+  left: 55px;
+  top: 0;
+  width: 1px;
+  background: #575757;
+  height: 140px;
+}
+
+.poloski:before {
+  content: '';
+  position: absolute;
+  right: 55px;
+  top: 0;
+  width: 1px;
+  background: #575757;
+  height: 140px;
+}
+
+.title_page {
+  font-family: 'ProximaNova-Bold', sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+  position: relative;
+  display: inline-block;
+  padding: 0 40px;
+  margin-top: 67px;
+  margin-bottom: 15px;
+}
+
+.title_page span {
+  color: #f14343;
+}
+
+.title_page:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 5px;
+  /* background: url(/web/20180518221213im_/http://max-tattoo.ru/wp-content/themes/tatu/images/icon/skull.png) no-repeat; */
+  width: 24px;
+  height: 26px;
+}
+
+.title_page:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 5px;
+  /* background: url(/web/20180518221213im_/http://max-tattoo.ru/wp-content/themes/tatu/images/icon/skull.png) no-repeat; */
+  width: 24px;
+  height: 26px;
+}
+
+.desc_icon {
+  display: block;
+  margin: 0 auto;
+}
+
+.desc_ppp {
+  color: #adadad;
+  font-family: 'Nickainley-Normal', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*=====  End of HEADER  ======*/
+
+
+/*==================================
+=            Section #1            =
+==================================*/
+.box_img {
+  position: relative;
+  margin-top: 42px;
+  height: 417px;
+  width: 83%;
+}
+
+.box_img:after {
+  content: '';
+  /* background: url(/web/20180518221213im_/http://max-tattoo.ru/wp-content/themes/tatu/images/icon/after_bg.png) no-repeat; */
+  width: 477px;
+  height: 417px;
+  top: -35px;
+  left: -35px;
+  display: block;
+  position: absolute;
+  z-index: -1;
+}
+
+.blocks_s {
+  margin-top: 96px;
+  margin-bottom: 95px;
+}
+
+.l_col_t {
+  padding-left: 50px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.l_col_t h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+  margin: 0 0 35px 0;
+  padding: 0;
+}
+
+.l_col_t h2 span {
+  color: #f14343;
+}
+
+.l_col_t h3 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0 0 35px 0;
+  padding: 0;
+}
+
+.l_col_t h4 {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0 0 35px 0;
+  padding: 0;
+}
+
+.l_col_t h4 span {
+  color: #f14343;
+}
+
+.l_col_t h4 span strong {
+  font-size: 48px;
+}
+
+.l_col_t p {
+  font-family: 'Roboto', sans-serif;
+  color: #b2b2b2;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0 0 35px 0;
+  padding: 0;
+  line-height: 27px;
+}
+
+/*=====  End of Section #1  ======*/
+
+
+/*==================================
+=            Section #2           =
+==================================*/
+.cont_s {
+  min-height: 350px;
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.block_usl {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  min-height: 350px;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+  /* IE 6-9 */
+}
+
+.block_usl:after {
+  content: '';
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.m_cont {
+  top: 0;
+  right: 0;
+  left: 0;
+  padding-right: 20px;
+  padding-left: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.m_cont h2 {
+  margin: 0;
+  padding: 0 0 23px 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.m_cont p {
+  margin: 0;
+  padding: 0 0 23px 0;
+  color: white;
+  font-family: 'Nickainley-Normal', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.icon_usl {
+  display: block;
+  margin: 27px auto 23px auto;
+}
+
+.m_cont .btt {
+  width: 153px;
+  height: 39px;
+  background-color: #f14343;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 29px;
+  border: none;
+  display: block;
+  margin: 0 auto 0px auto;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.m_cont .btt:hover {
+  background-color: #cd3636;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+/*=====  End of Section #2  ======*/
+
+
+/*==================================
+=            Section #3            =
+==================================*/
+.fancybox-slide--video .fancybox-content {
+  width: 600px;
+  height: 400px;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.sect_3_3 {
+  margin-bottom: 35px;
+}
+
+.portfolio {
+  margin-top: 89px;
+  margin-bottom: 57px;
+  overflow: hidden;
+}
+
+.portfolio__item {
+  display: block;
+  position: relative;
+  float: left;
+  width: 25%;
+  height: 250px;
+}
+
+.portfolio__item:after {
+  content: '';
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  cursor: pointer;
+  display: block;
+  opacity: 0;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.imgs {
+  width: 100%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.blockssss {
+  width: 100%;
+  height: 250px;
+}
+
+.lupas {
+  display: block;
+  opacity: 0;
+  /* background-image: url(/web/20180518221213im_/http://max-tattoo.ru/wp-content/themes/tatu/images/icon/zoom-in.png); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -25px;
+  margin-top: -25px;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  cursor: pointer;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.lupas2 {
+  display: block;
+  opacity: 0;
+  /* background-image: url(/web/20180518221213im_/http://max-tattoo.ru/wp-content/themes/tatu/images/icon/zoom-in-video.png); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -25px;
+  margin-top: -25px;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  cursor: pointer;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.portfolio__item:hover .lupas {
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+  opacity: 1;
+}
+
+.ocarousel .item:hover .lupas2 {
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+  opacity: 1;
+}
+
+.portfolio__item:hover:after {
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+  opacity: 1;
+}
+
+.portfolio__item img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.portfolio:before {
+  content: " ";
+  display: table;
+}
+
+.portfolio:after {
+  clear: both;
+}
+
+.portfolio:after {
+  content: " ";
+  display: table;
+}
+
+.load_portfolio {
+  text-transform: uppercase;
+  width: 250px;
+  height: 43px;
+  background-color: #f14343;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 29px;
+  border: none;
+  display: block;
+  margin: 0 auto 10px auto;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.load_portfolio:hover {
+  background-color: #cd3636;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+/*=====  End of Section #3  ======*/
+
+
+/*==================================
+=            Section #4            =
+==================================*/
+
+.sect_4 {
+  /* background: url(/web/20180518221213im_/http://max-tattoo.ru/wp-content/themes/tatu/images/logo_size.png) no-repeat top right; */
+  min-height: 1000px;
+}
+
+.block_img_4sect {
+  margin-top: 65px;
+}
+
+.prems_4sect {
+  margin-top: 65px;
+}
+
+.block_pr_sect4 {
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-left: 81px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+}
+
+.block_pr_sect4 h3 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'ProximaNova-Bold', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.block_pr_sect4 p {
+  margin: 0;
+  padding: 15px 0 0 0;
+  color: lightgrey;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.gallery_bottom {
+  margin-top: 30px;
+}
+
+.gogs {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  cursor: pointer;
+  display: block;
+  opacity: 0;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.gallery_bottom .lupas {
+  display: block;
+  opacity: 0;
+  /* background-image: url(/web/20180518221213im_/http://max-tattoo.ru/wp-content/themes/tatu/images/icon/zoom-in.png); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -25px;
+  margin-top: -25px;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  cursor: pointer;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.ocarousel .item:hover .lupas {
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+  opacity: 1;
+}
+
+.ocarousel .item:hover .gogs {
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+  opacity: 1;
+}
+
+.ocarousel {
+  padding: 0 100px;
+}
+
+.ocarousel .owl-dots {
+  display: none;
+}
+
+.owl-next {
+  display: block;
+  text-indent: -99999px;
+  /* background: url(/web/20180518221213im_/http://max-tattoo.ru/wp-content/themes/tatu/images/icon/arr_left.png) no-repeat; */
+  width: 15px;
+  height: 63px;
+  position: absolute;
+  left: 70px;
+  top: 50%;
+  margin-top: -32px;
+}
+
+.owl-prev {
+  display: block;
+  text-indent: -99999px;
+  /* background: url(/web/20180518221213im_/http://max-tattoo.ru/wp-content/themes/tatu/images/icon/arr_right.png) no-repeat; */
+  width: 15px;
+  height: 63px;
+  position: absolute;
+  right: 70px;
+  top: 50%;
+  margin-top: -32px;
+}
+
+.block_vk_insta {
+  margin-top: 68px;
+  /* background: url(/web/20180518221213im_/http://max-tattoo.ru/wp-content/themes/tatu/images/block_vk_insta.png) no-repeat right bottom; */
+  min-height: 235px;
+}
+
+.block_vk_insta h4 {
+  margin: 0;
+  padding: 25px 0 42px 0;
+  font-family: 'ProximaNova-Bold', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+}
+
+.block_vk_insta h4 span {
+  color: #f14343;
+}
+
+.block_vk_insta h5 {
+  margin: 0;
+  padding: 0;
+  font-family: 'ProximaNova-Bold', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
+  line-height: 29px;
+}
+
+.block_vk_insta h5 span {
+  font-size: 25px;
+}
+
+.soc_size {
+  margin: 30px 0 0 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.soc_size li {
+  display: inline-block;
+}
+
+.soc_size li .ic_s {
+  display: block;
+  width: 121px;
+  height: 212px;
+  opacity: 1;
+  background-repeat: no-repeat;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.soc_size li .ic_s:hover {
+  opacity: .8;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.vk_size {
+  /* background-image: url(/web/20180518221213im_/http://max-tattoo.ru/wp-content/themes/tatu/images/icon/vk_size.png); */
+  margin-right: 73px;
+}
+
+.insta_size {
+  /* background-image: url(/web/20180518221213im_/http://max-tattoo.ru/wp-content/themes/tatu/images/icon/insta_size.png); */
+}
+
+/*=====  End of Section #4  ======*/
+
+
+/*====================================
+=            last section            =
+====================================*/
+.last_sect {
+  /* background: url(/web/20180518221213im_/http://max-tattoo.ru/wp-content/themes/tatu/images/prisebg.png) no-repeat center center; */
+  width: 100%;
+  height: auto;
+}
+
+.mb_sect {
+  margin-top: 70px;
+}
+
+.block_text_last {
+  margin-bottom: 30px;
+}
+
+.block_text_last h4 {
+  margin: 0;
+  padding: 0 0 25px 0;
+  text-align: left;
+  color: #d23b3b;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.block_text_last p {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  color: #b2b2b2;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 29px;
+}
+
+.slide_r {
+  margin-top: 70px;
+  height: 330px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.olala::-webkit-scrollbar {
+  width: 0;
+}
+
+.olala {
+  -ms-overflow-style: none;
+}
+
+.olala {
+  overflow: -moz-scrollbars-none;
+}
+
+.olala {
+  height: 330px;
+  overflow-y: scroll;
+  padding-left: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.ten {
+  background: #11111147;
+  opacity: 1;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 5;
+}
+
+.block_prise {
+  margin-bottom: 30px;
+}
+
+.block_prise h3 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.block_prise span {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: right;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: -5px;
+}
+
+.ocarousels {
+  margin-bottom: 30px;
+  padding: 0 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.gallery_bottoms {
+  margin-top: 30px;
+}
+
+.otzv_block .icon_otzv {
+  width: 31px !important;
+  margin: 0 auto;
+  display: block;
+}
+
+.otzv_block .titles {
+  color: #d23b3b;
+  font-family: 'Nickainley-Normal', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: center;
+  margin-top: 13px;
+}
+
+.otzv_block hr {
+  height: 1px;
+  opacity: 0.5;
+  background-color: white;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+
+.otzv_block p {
+  color: #adadad;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 29px;
+  text-align: center;
+  padding: 0 50px;
+}
+
+.otzv_block .vk_u {
+  width: 235px;
+  height: 50px;
+  border: 3px solid #f14343;
+  display: block;
+  margin: 0 auto;
+  background-color: transparent;
+  color: #f14343;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 48px;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.otzv_block .vk_u:hover {
+  color: #fff;
+  border: 3px solid #fff;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.block_imgs {
+  width: 437px;
+  height: 370px;
+  margin: 40px auto;
+  position: relative;
+  /* background: url(/web/20180518221213im_/http://max-tattoo.ru/wp-content/themes/tatu/images/bg_avar.png) no-repeat; */
+}
+
+.vata {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 12px;
+  left: 102px;
+}
+
+.loliks {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.hiddens {
+  display: none;
+}
+
+.avka {
+  width: 100%;
+  height: 370px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 20px;
+}
+
+.s_titles {
+  text-align: center;
+  color: white;
+  font-family: 'ProximaNova-Bold', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+
+.lolka6 {
+  /* background: url(/web/20180518221213im_/http://max-tattoo.ru/wp-content/themes/tatu/images/black_w.png) no-repeat top center; */
+  width: 100%;
+  height: 100%;
+}
+
+.spec {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #f14343;
+  font-weight: 500;
+}
+
+.spec span {
+  color: white;
+  font-weight: 300;
+}
+
+.lolka6 p {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.lolka6 .galls_l {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: underline;
+  display: block;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.lolka6 .galls_l:hover {
+  color: #f14343;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.lolka6 button {
+  width: 235px;
+  height: 50px;
+  border: 3px solid #f14343;
+  display: block;
+  margin: 50px auto auto auto;
+  background-color: transparent;
+  color: #f14343;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 48px;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.lolka6 button:hover {
+  color: #fff;
+  border: 3px solid #fff;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+/*=====  End of last section  ======*/
+
+
+
+/*====================================
+=            Section FORM            =
+====================================*/
+.form_sect {
+  /* background: url(/web/20180518221213im_/http://max-tattoo.ru/wp-content/themes/tatu/images/form_bgs.png) no-repeat center top; */
+  width: 100%;
+  height: 234px;
+}
+
+.form_sect h3 {
+  margin: 37px 0 15px 0;
+  padding: 0;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  font-family: 'ProximaNova-Bold', sans-serif;
+}
+
+.form_sect h3 span {
+  color: #f14343;
+}
+
+.form_sect p {
+  color: #bababa;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 25px;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.form_sect input {
+  width: 260px;
+  height: 45px;
+  border: 1px dashed white;
+  display: inline-block;
+  background-color: transparent;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 29px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 10px;
+  margin-right: 36px;
+}
+
+.form_sect .btt {
+  width: 260px;
+  height: 45px;
+  background-color: #f14343;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 29px;
+  border: none;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.form_sect .btt:hover {
+  background-color: #cd3636;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+/*=====  End of Section FORM  ======*/
+
+
+/*====================================
+=            Section maps            =
+====================================*/
+.maps {
+  /* background: url(/web/20180518221213im_/http://max-tattoo.ru/wp-content/themes/tatu/images/maps.jpg) no-repeat center top; */
+  height: 779px;
+}
+
+.logotype {
+  right: 60px;
+  top: 56px;
+}
+
+.form_niz_bg {
+  font-family: 'Roboto', sans-serif;
+  width: 428px;
+  height: 273px;
+  background-color: black;
+  right: 0px;
+  top: 454px;
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.form_niz_bg h3 {
+  margin: 0;
+  padding: 0 0 30px 0;
+  color: #c20000;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.form_niz_bg h4 {
+  margin: 0;
+  padding: 0 0 10px 0;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.form_niz_bg .text_ppp {
+  margin: 0;
+  padding: 0 0 30px 0;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/*=====  End of Section maps  ======*/
+
+
+
+/*==============================
+=            FOOTER            =
+==============================*/
+footer {
+  width: 100%;
+  height: 64px;
+  background-color: black;
+}
+
+footer .f_links {
+  color: white;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: center;
+  display: block;
+  padding-top: 17px;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+footer .f_links:hover {
+  color: #f14343;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+#fade {
+  display: none;
+  background: #000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .80;
+  z-index: 9999;
+}
+
+.popupbox {
+  width: 350px;
+  height: 280px;
+  background: #111;
+  display: none;
+  border: 2px solid #111;
+  float: left;
+  position: fixed;
+  z-index: 99999;
+  -webkit-box-shadow: 0px 0px 10px #4a4a4a;
+  -moz-box-shadow: 0px 0px 10px #4a4a4a;
+  box-shadow: 0px 0px 10px #4a4a4a;
+  top: 50%;
+  left: 50%;
+}
+
+.popupbox2 {
+  width: 700px;
+  height: 330px;
+  background: #111;
+  display: none;
+  border: 2px solid #111;
+  float: left;
+  position: fixed;
+  z-index: 99999;
+  -webkit-box-shadow: 0px 0px 10px #4a4a4a;
+  -moz-box-shadow: 0px 0px 10px #4a4a4a;
+  box-shadow: 0px 0px 10px #4a4a4a;
+  top: 50%;
+  left: 50%;
+}
+
+.popupbox3 {
+  width: 350px;
+  height: 380px;
+  background: #111;
+  display: none;
+  border: 2px solid #111;
+  float: left;
+  position: fixed;
+  z-index: 99999;
+  -webkit-box-shadow: 0px 0px 10px #4a4a4a;
+  -moz-box-shadow: 0px 0px 10px #4a4a4a;
+  box-shadow: 0px 0px 10px #4a4a4a;
+  top: 50%;
+  left: 50%;
+}
+
+.lolkas {
+  padding-top: 25px !important;
+  font-size: 14px !important;
+}
+
+.box_modal {
+  height: 267px;
+  overflow-y: scroll;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.box_modal p {
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 15px;
+  padding-right: 15px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 29px;
+}
+
+#close {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  float: right;
+  cursor: pointer;
+  right: 9px;
+  font-weight: bold;
+  top: 9px;
+  text-align: center;
+  line-height: 15px;
+  /* background: url(/web/20180518221213im_/http://max-tattoo.ru/wp-content/themes/tatu/images/icon/close.png) no-repeat; */
+}
+
+#fom2 {
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#fom2 h2 {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#fom2 h2 span {
+  color: #f14343;
+}
+
+.popupbox #fom2 h2 {
+  padding-top: 0;
+  font-size: 15px;
+}
+
+#fom2 form {
+  margin-top: 33px;
+}
+
+input.inpfooter {
+  border: 1px dashed white;
+  background-color: transparent;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 29px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  width: 294px;
+  height: 45px;
+  padding-left: 15px;
+  margin: 20px auto;
+  outline: none;
+  -webkit-transition: all .25s;
+  -moz-transition: all .25s;
+  -ms-transition: all .25s;
+  -o-transition: all .25s;
+  transition: all .25s;
+}
+
+input.inpfooter:focus {
+  -webkit-transition: all .25s;
+  -moz-transition: all .25s;
+  -ms-transition: all .25s;
+  -o-transition: all .25s;
+  transition: all .25s;
+  border: 1px dashed #f14343;
+}
+
+.form_secbtt {
+  margin: 0px auto auto auto;
+  text-transform: uppercase;
+  width: 294px;
+  height: 45px;
+  background-color: #f14343;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 29px;
+  border: none;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.form_secbtt:hover {
+  background-color: #cd3636;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.popup {
+  background: rgba(0, 0, 0, 0.36);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.popup .ten {
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.popup .forma {
+  top: 50%;
+  margin: -190px auto 0 auto;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.forma {
+  background: #111;
+  -webkit-box-shadow: 0px 0px 10px #4a4a4a;
+  -moz-box-shadow: 0px 0px 10px #4a4a4a;
+  box-shadow: 0px 0px 10px #4a4a4a;
+  width: 470px;
+  height: 160px;
+  position: relative;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.popup .forma .heada {
+  text-align: center;
+  font-size: 29px;
+  color: #f14343;
+  padding: 40px 0 12px 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.popup .forma p {
+  padding-top: 11px;
+  text-align: center;
+  font-size: 21px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*=====  End of FOOTER  ======*/
+
+/*
+     FILE ARCHIVED ON 22:12:13 May 18, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:29:18 Apr 08, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 101.574
+  exclusion.robots: 0.176
+  exclusion.robots.policy: 0.17
+  RedisCDXSource: 0.572
+  esindex: 0.007
+  LoadShardBlock: 84.916 (3)
+  PetaboxLoader3.datanode: 116.808 (4)
+  CDXLines.iter: 14.016 (3)
+  load_resource: 99.024
+  PetaboxLoader3.resolve: 36.951
+*/
